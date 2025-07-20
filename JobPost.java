@@ -107,7 +107,7 @@ public class JobPost {
 
 // Connect to the database and insert user data
                     try {
-                        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/job_portal", "root", "Root@1234");
+                        Connection connection = DriverManager.getConnection("****", "****", "****");
                         PreparedStatement statement = connection.prepareStatement("INSERT INTO search (job_field ,salary_range, location ,job_type ,Company) VALUES ( ?, ?, ?, ?, ?)");
 
                         statement.setString(1, job_field);
