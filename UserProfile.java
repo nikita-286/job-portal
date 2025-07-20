@@ -180,7 +180,7 @@ public class UserProfile implements ActionListener {
 
             try {
                 // Establish a database connection
-                Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/job_portal", "root", "Root@1234");
+                Connection connection = DriverManager.getConnection("****", "****", "****");
                 PreparedStatement statement;
 
                 // Check if all filter fields are empty, then fetch all jobs
