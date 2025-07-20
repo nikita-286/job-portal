@@ -70,9 +70,9 @@ public class RankingPage extends JFrame {
     private void fetchAndPopulateData() {
         try {
             // Establish a database connection (replace with your database details)
-            String jdbcURL = "jdbc:mysql://localhost:3306/job_portal";
-            String username = "root";
-            String password = "Root@1234";
+            String jdbcURL = "****";
+            String username = "****";
+            String password = "****";
             Connection connection = DriverManager.getConnection(jdbcURL, username, password);
 
             // Fetch ranked job seekers from the database (replace with your SQL query)
