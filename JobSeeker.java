@@ -99,7 +99,7 @@ public class JobSeeker {
 
 // Connect to the database and insert user data
                     try {
-                        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/job_portal", "root", "Root@1234");
+                        Connection connection = DriverManager.getConnection("*****", "****", "*****");
                         PreparedStatement statement = connection.prepareStatement("INSERT INTO jobseeker_details (js_phone_no,skills,certifications,js_name,address,education,salary,work_exp) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?)");
                         //statement.setString(1, js_id);
                         statement.setString(1, phone_no);
