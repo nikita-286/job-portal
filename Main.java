@@ -67,7 +67,7 @@ public class Main implements ActionListener {
                 }*/
                 // Connect to the database and verify credentials
                 try {
-                    Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/job_portal", "root", "Root@1234");
+                    Connection connection = DriverManager.getConnection("****", "****", "****");
                     PreparedStatement statement = connection.prepareStatement("SELECT * FROM userss WHERE email = ?");
                     statement.setString(1, email);
                     ResultSet result = statement.executeQuery();
@@ -221,7 +221,7 @@ public class Main implements ActionListener {
 
 
                     try {
-                        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/job_portal", "root", "Root@1234");
+                        Connection connection = DriverManager.getConnection("****", "****", "****");
                         PreparedStatement statement = connection.prepareStatement("INSERT INTO userss(f_name,l_name,email,password) VALUES (?, ?, ?, ?)");
                         statement.setString(1, f_name);
                         statement.setString(2, l_name);
