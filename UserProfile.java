@@ -249,7 +249,7 @@ public class UserProfile implements ActionListener {
         PreparedStatement statement = null;
 
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/job_portal", "root", "Root@1234");
+            connection = DriverManager.getConnection("****", "****", "****");
             statement = connection.prepareStatement("INSERT INTO applied_candidates (email, full_name, job_field, salary_range, location, job_type, Company) VALUES (?, ?, ?, ?, ?, ?, ?)");
             statement.setString(1, email);
             statement.setString(2, fullName);
