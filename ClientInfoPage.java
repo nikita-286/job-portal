@@ -82,7 +82,7 @@ public class ClientInfoPage {
 
         // Create a SQL connection and query the applied candidates
         try {
-            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/job_portal", "root", "Root@1234");
+            Connection connection = DriverManager.getConnection("****", "****", "****");
             PreparedStatement statement = connection.prepareStatement("SELECT * FROM applied_candidates WHERE Company = ?");
             statement.setString(1, companyName);
             ResultSet resultSet = statement.executeQuery();
