@@ -104,7 +104,7 @@ public class Main implements ActionListener {
             }
         });
 
-        ImageIcon imageIcon = new ImageIcon("C:\\Users\\nitin\\Downloads\\logo-removebg-preview.png");
+        ImageIcon imageIcon = new ImageIcon("C:\\Users\\user1\\Downloads\\logo-removebg-preview.png");
         JLabel imageLabel = new JLabel(imageIcon);
         imageLabel.setBounds(55,75,150,100);
         f.add(imageLabel);
@@ -188,7 +188,7 @@ public class Main implements ActionListener {
             passwordTF.setBounds(535, 480, 257, 30);
 
 
-            ImageIcon imageIcon = new ImageIcon("C:\\Users\\nitin\\Downloads\\logo-removebg-preview.png");
+            ImageIcon imageIcon = new ImageIcon("C:\\Users\\user1\\Downloads\\logo-removebg-preview.png");
             JLabel imageLabel = new JLabel(imageIcon);
             imageLabel.setBounds(55,75,150,100);
             frame2.add(imageLabel);
@@ -248,11 +248,6 @@ public class Main implements ActionListener {
                 }
             });
 
-
-
-           // frame2.getContentPane().setBackground(new Color(120, 187, 199)); // Replace with your RGB values
-
-
             frame2.add(firstName);
             frame2.add(lastName);
             frame2.add(registerNew);
@@ -263,8 +258,8 @@ public class Main implements ActionListener {
             frame2.add(password);
             frame2.add(emailTF);
             frame2.add(passwordTF);
-            //frame2.getContentPane().setBackground(new java.awt.Color(171, 215, 224));
-            frame2.getContentPane().setBackground(new Color(137, 198, 210)); // Replace with your RGB values
+
+            frame2.getContentPane().setBackground(new Color(137, 198, 210)); 
 
 
             frame2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
