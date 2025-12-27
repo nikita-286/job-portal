@@ -69,10 +69,8 @@ public class JobPost {
         JTextField salaryTF = new JTextField();
         salaryTF.setBounds(250, 250, 257, 30);
 
-        //frame.getContentPane().setBackground(new Color(137, 198, 210)); // Replace with your RGB values
 
-
-        ImageIcon imageIcon = new ImageIcon("C:\\Users\\nitin\\Downloads\\logo-removebg-preview.png");
+        ImageIcon imageIcon = new ImageIcon("C:\\Users\\user1\\Downloads\\logo-removebg-preview.png");
         JLabel imageLabel = new JLabel(imageIcon);
         imageLabel.setBounds(55,75,150,100);
         frame.add(imageLabel);
@@ -173,10 +171,10 @@ public class JobPost {
         frame.setSize(1000, 1000);
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        //frame.getContentPane().setBackground(new Color(222, 33, 63, 255));
     }
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> new JobPost());
     }
 }
+
