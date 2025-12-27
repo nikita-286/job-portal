@@ -130,7 +130,7 @@ public class Company {
         });
 
         frame.add(postJobButton);
-        ImageIcon imageIcon = new ImageIcon("C:\\Users\\nitin\\Downloads\\logo-removebg-preview.png");
+        ImageIcon imageIcon = new ImageIcon("C:\\Users\\user1\\Downloads\\logo-removebg-preview.png");
         JLabel imageLabel = new JLabel(imageIcon);
         imageLabel.setBounds(55,75,150,100);
         frame.add(imageLabel);
@@ -168,3 +168,4 @@ public class Company {
         SwingUtilities.invokeLater(() -> new Company());
     }
 }
+
